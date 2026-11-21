@@ -1,0 +1,6 @@
+{
+  "name": "Open Positions & Career Application",
+  "description": "Search open positions and submit your job application with CV, cover letter, and application letter attachments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

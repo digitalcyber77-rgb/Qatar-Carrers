@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Belleza", Georgia, serif;
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --color-burgundy: #8E1945;
+  --color-burgundy-hover: #731236;
+  --color-surface-muted: #F3F2F5;
+  --color-border-subtle: #D8DCE3;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #22252A;
+    background-color: #FFFFFF;
+  }
+
+  h1, h2, .font-display {
+    font-family: var(--font-display);
+  }
+}
